@@ -16,11 +16,6 @@ body {
     background-image: linear-gradient(to right,#0a192f)
 }
 
-.main {
-    max-width: 1200px;
-    
-    margin: 0 auto;
-}
 
 .header {
     display: flex;
@@ -253,6 +248,7 @@ header .nav-logo{
     height: 60px;
     width: 420px;
     font-size: larger;
+    color: white;
 }
 
 .form-txt2 {
@@ -260,11 +256,12 @@ header .nav-logo{
     height: 60px;
     width: 420px;
     font-size: larger;
+    color: white;
 }
 
 .form-txt3 {
     background-color: #00ffff20;
-    color: #00FFFF;
+    color: white;
     height: 200px;
     width: 420px;
     margin-left: 11px;
@@ -324,6 +321,10 @@ footer{
 
     .year {
         width:192px
+    }
+
+    main {
+        width:100%;
     }
 }
 
