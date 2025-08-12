@@ -8,9 +8,9 @@
     src: url(font/Inter-VariableFont_opsz\,wght.ttf);
 }
 
-* {
-    margin-left:5px ;
-}
+/* * {
+    margin-left: 5px;
+} */
 
 body {
     background-image: linear-gradient(to right,#0a192f)
@@ -42,9 +42,8 @@ header .nav-logo{
     text-transform:capitalize;
     color: white;
     font-family: Inter;
-    font-size: 30px;
+    font-size: 70px;
     font-weight: bold;
-    font-family: inter;
 }
 
 .hero-content h2 {
@@ -390,7 +389,7 @@ footer{
     .links li:hover {
         transform: scale(1.06);
 
-    }
+    
 
     .project-1:hover {
         background-color: rgba(255, 255, 255, 0.113);
